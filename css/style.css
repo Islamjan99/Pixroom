@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    background: #ffffff;
+
+}
+
+.header {
+    margin-bottom: 200px;
+    width: 100%;
+ 
+}
+
+.top {
+    background: #000000;
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+}
+
+.img__top {
+    margin-left: 100px;
+    
+
+}
+
+.img__m {
+    width: 23px;
+    height: 13px;
+    margin: 2px auto;
+    transition: 2s;
+}
+
+.tel {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.tel a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.tel:hover {
+    font-size: 20px;
+}
+
+.img__o {
+    width: 20px;
+   
+}
+
+.containerr {
+    height: 450px;
+    width: 100%;
+    background: #000000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    color: #ffffff;
+    
+}
+
+.container__name {
+    font-family: 400;
+    font-size: 70px;
+    line-height: 57px;
+    margin-bottom: 32px;
+    padding-top: 125px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1.7px;
+    position: relative;
+}
+
+.container__name::after {
+    content: '';
+    position: absolute;
+    width: 354px;
+    height: 2px;
+    background: #4b4a4b;
+    text-align: center;
+    display: block;
+    margin-top: 95px;
+}
+
+.containerr p {
+    text-align: center;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 1.7px;
+}
+
+.img {
+    margin: 70px auto;
+    box-align: center;
+    background: url(../img/me.jpg) no-repeat center center / cover;
+    border-radius: 50%;
+    width:250px;
+    height: 250px;
+    
+}
+
+.main__container{
+    color: #000000;
+}
+
+.main__text {
+    margin-top: -60px;
+    height: 300px;
+    text-align: center;
+}
+
+
+.main__text strong {
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.main__mu {
+    width: 40%;
+    margin-left: 100px;
+    text-align: left;
+    display: flex;
+    margin-top: 50px;
+}
+
+.main__right {
+    padding-left: 100px;
+}
+
+.hello {
+    font-size: 35px;
+}
+
+.main__u {
+    font-size: 20px;
+    text-align: center;
+}
+
+.main__y {
+    font-size: 20px;
+    line-height: 1;
+}
+
+.main__my {
+    display: flex;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.courses {
+    font-size: 35px;
+}
+
+.ogogo {
+    font-size: 25px;
+    line-height: 60px;
+    line-height: 1;
+}
+
+.main__img {
+    margin: 300px 250px 18px 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img3{
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+    margin-right: 200px;
+    font-size: 24px;
+    line-height: 28px;
+    
+}
+ 
+.img4 {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.main__Description {
+    font-size: 36px;
+    margin: 0 150px 18px 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.main__project  {
+    margin: 0 auto;
+    display: flex;
+}
+
+.main__project img {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    margin: 41 100px 41px 100px;
+}
+
+.project {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    height: 56px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.footer {
+    margin-top: 50px;
+    height: 200px;
+    background: #000000;
+}
+
+.footer__img {
+    padding-top: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 5%;
+}
+
+.insta {
+    width: 25px;
+    height: 25px;
+    margin-right: 30px;
+    transition-duration: 1s ;
+}
+
+.insta:hover {
+    width: 35px;
+    height: 35px;
+}
+
+.telega {
+    width: 25px;
+    height: 25px;
+    margin-right: 30px;
+    transition-duration: 1s ;
+}
+
+.telega:hover {
+    width: 35px;
+    height: 35px;
+}
+
+.whats {
+    width: 25px;
+    height: 25px;
+    transition-duration: 1s ;
+}
+
+.whats:hover {
+    width: 35px;
+    height: 35px;
+}
+
+.title {
+    padding-top: 15px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 1.7px;
+}
+
+.p{
+    padding-top: 15px;
+    font-size: 11px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 1.7px;
+}
+
+.FB {
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+}
+
+@media all and (max-width: 1025px) {
+    .header {
+        width: 140%;
+    }
+
+    .main__mu {
+        font-size: 20px;
+        margin-bottom: 50px;
+
+    }
+
+    .footer {
+        width: 140%;
+        
+    }
+    
+    .main__text {
+        align-items: center;
+    }
+
+    .main__container {
+       width: 140%;
+    }
+
+    .main__img {
+        width: 90%;
+    }
+
+    .main__Description {
+        width: 100%;
+        margin-left: 200px;
+    }
+
+    .img1 {
+        margin-left: 100px ;
+    }
+
+    .main__project {
+        width: 90%;
+    }
+
+    .footer {
+        padding-top: 50px ;
+    }
+}
+
+@media all and (max-width: 769px) {
+    .header {
+        width: 161%;
+    }
+
+    .main__text {
+        width: 115%;
+    }
+
+    .main__left .hello .main__y .main__my{
+        font-size: 10%;
+    }
+
+    .img3 {
+        margin-left: 0px;
+    }
+
+    .main__img{
+        margin-left: 70px;
+        width: 120%;
+        margin-top: 40%;
+    }
+
+    .main__Description {
+        width: 130%;
+        margin-left: 100px;
+        
+    }
+
+    .footer {
+        width: 160%;
+    }
+}
+
+@media all and (max-width: 426px) {
+    .header {
+        width: 259%;
+    }
+
+    .main__text {
+        width: 190%;
+    }
+
+    .main__mu {
+        margin-left: 150px;
+    }
+
+    .main__project {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 250px;
+    }
+
+    .main__text {
+        padding-bottom: 200%;
+        
+    }
+
+    .main__y {
+        font-size: 30px;
+    }
+    .main__my {
+        font-size: 30px;
+    }
+
+    .main__img {
+        display: none;
+    }
+
+    .img4 {
+        margin-left: 0;
+    }
+
+    .main__Description {
+        display: none;
+    }
+
+    .footer {
+        width: 258%;
+    }
+}
